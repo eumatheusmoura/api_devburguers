@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
 
 const Pedidos = mongoose.model("pedidos", {
-  img: String,
   pedido: String,
   nome: String,
   endereco: String,
